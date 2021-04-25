@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="sp" name="South Park">
+	<char id="cartman" name="Eric Cartman" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="Y" aid="621" money="0" sharing="40">
+		<category name="Basic">
+			<action id="stand.swf" name="Stand" loop="Y" totalframe="24" enable="Y" aid="622"/>
+			<action id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="623"/>
+		<category name="Talk">
+			<action id="talk_angrily.swf" name="Angry Talk" loop="Y" totalframe="24" enable="Y" aid="624"/>
+			<action id="talk_neutral.swf" name="Talk" loop="Y" totalframe="24" enable="Y" aid="625"/>
+		<category name="Misbehave">
+			<action id="middle_finger.swf" name="Fuzz You!" loop="Y" totalframe="24" enable="Y" aid="624"/>
+</theme>
